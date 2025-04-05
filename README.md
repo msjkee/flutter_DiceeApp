@@ -1,31 +1,56 @@
-![App Brewery Banner](https://github.com/londonappbrewery/Images/blob/master/AppBreweryBanner.png)
+# 🎲 DiceeApp - Random Dice Roller in Flutter
+
+A simple and fun dice roller app built with Flutter!  
+Click on the dice to roll them — both dice change randomly using Dart’s math magic 🧙‍♂️✨
+
+---
+
+## 🛠️ Features
+
+- 🎯 Built using **StatefulWidget**
+- 🎲 Uses `dart:math` to generate random numbers
+- 🖼️ Dynamically loads dice images (`Image.asset`)
+- 👆 Clickable dice with `TextButton`
+- ⚡ Smooth UI updates with `setState()`
+
+---
+
+## 💻 Screenshot
+
+<img width="336" alt="image" src="https://github.com/user-attachments/assets/36544bf0-1b03-484b-8f48-f1e5a5bb5cc1" />
 
 
-# Dicee 🎲
+---
 
-## Our Goal
+## 📦 Getting Started
 
-The objective of this tutorial is to introduce you to the core programming concepts that will form the foundation of most of the apps you’ll build in the future. This app will teach you how to make apps with functionality using setState() inside Stateful Flutter widgets.
+To run this project locally:
 
+```bash
+flutter pub get
+flutter run
+```
 
-## What you will create
+Make sure you have Flutter SDK installed. If not:  
+👉 [Install Flutter](https://docs.flutter.dev/get-started/install)
 
-We’re going to make a Las Vegas dice app. You can make the die roll at the press of a button. With this app in your pocket, you’ll be able to settle any score on the go!
+---
 
-![Finished App](https://github.com/londonappbrewery/Images/blob/master/dicee-demo.gif)
+## 🧠 Technologies Used
 
-## What you will learn
+- **Flutter** (SDK 3.x+)
+- **Dart**
+- `dart:math` for randomness
+- `TextButton`, `Expanded`, `Image.asset` for layout
 
-- How to use Flutter stateless widgets to design the user interface.
-- How to use Flutter stateful widgets to update the user interface.
-- How to change the properties of various widgets.
-- How to use onPressed listeners to detect when buttons are pressed.
-- How to use setState to mark the widget tree as dirty and requiring update on the next render.
-- How to use Expanded to make widgets adapt to screen dimensions.
-- Understand and use string interpolation.
-- Learn about basic dart programming concepts such as data types and functions.
-- Code and use gesture controls.
+---
 
->This is a companion project to The App Brewery's Complete Flutter Development Bootcamp, check out the full course at [www.appbrewery.co](https://www.appbrewery.co/)
+## 🙌 Author
 
-![End Banner](https://github.com/londonappbrewery/Images/blob/master/readme-end-banner.png)
+Made with ❤️ by [Misha Stukalov](https://github.com/msjkee)
+
+---
+
+## 📝 License
+
+This project is licensed under the MIT License.
